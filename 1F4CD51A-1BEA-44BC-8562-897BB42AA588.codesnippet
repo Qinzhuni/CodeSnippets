@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sortedArray</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (NSArray *)sortedArrayFunction:(NSArray *)originArray
+{
+    NSArray * resultArray = [originArray sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+        
+        NSNumber * num1 = [[obj1 allKeys] firstObject];
+        NSNumber * num2 = [[obj2 allKeys] firstObject];
+        
+        NSComparisonResult result = [num1 compare:num2];
+        
+        return (NSComparisonResult)(result == NSOrderedDescending);
+    }];
+    
+    return resultArray;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1F4CD51A-1BEA-44BC-8562-897BB42AA588</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>sortedArrayFunction</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
