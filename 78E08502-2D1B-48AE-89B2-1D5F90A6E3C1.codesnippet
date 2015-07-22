@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ipRegulatorFilter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//过滤ip地址不正确的设备
+    NSError *error = NULL;
+    NSString * ipRegulator = @"^(\\d{1,2}|1\\d\\d|2[0-4]\\d|25[0-5])\\.(\\d{1,2}|1\\d\\d|2[0-4]\\d|25[0-5])\\.(\\d{1,2}|1\\d\\d|2[0-4]\\d|25[0-5])\\.(\\d{1,2}|1\\d\\d|2[0-4]\\d|25[0-5])$";
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:ipRegulator options:NSRegularExpressionCaseInsensitive error:&amp;error];
+    NSTextCheckingResult *result = [regex firstMatchInString:address options:0 range:NSMakeRange(0, [address length])];
+    if (!result) {
+        return;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>78E08502-2D1B-48AE-89B2-1D5F90A6E3C1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ipRegulatorFilter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

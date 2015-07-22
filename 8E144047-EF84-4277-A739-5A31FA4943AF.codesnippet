@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ShareSDKInitialize</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - initShareSDK
+- (void)initShareSDK
+{
+    //注册shareSDK
+    [ShareSDK registerApp:@"666da453649c"];
+    
+    //添加微信应用
+    [ShareSDK connectWeChatWithAppId:@"wx55b28d0f1d2b944a"
+                           wechatCls:[WXApi class]];
+    
+    //添加qq空间 url schemes码格式为”QQ” ＋ AppId的16进制“  16进制码生成方式为 终端： echo 'ibase=10;obase=16;1102137272,|bc，其中1102137272为QQ的AppID
+    [ShareSDK connectQZoneWithAppKey:@"1102137272"
+                           appSecret:@"OXcNictPPjM29mGO"
+                   qqApiInterfaceCls:[QQApiInterface class]
+                     tencentOAuthCls:[TencentOAuth class]];
+    [ShareSDK connectQQWithQZoneAppKey:@"1102137272" qqApiInterfaceCls:[QQApiInterface class] tencentOAuthCls:[TencentOAuth class]];
+    
+    //新浪微博
+    [ShareSDK connectSinaWeiboWithAppKey:@"1519070772" appSecret:@"f152f8d26ef99a6ab40b4586b4d44b85" redirectUri:@"http://sns.whalecloud.com/sina2/callback"];
+    [ShareSDK connectSinaWeiboWithAppKey:@"1519070772"
+                               appSecret:@"f152f8d26ef99a6ab40b4586b4d44b85"
+                             redirectUri:@"http://sns.whalecloud.com/sina2/callback"
+                             weiboSDKCls:[WeiboSDK class]];
+    
+    //短信
+    [ShareSDK connectSMS];
+    //邮件
+    [ShareSDK connectMail];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8E144047-EF84-4277-A739-5A31FA4943AF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ShareSDKInitialize</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
