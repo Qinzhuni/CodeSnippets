@@ -6,7 +6,7 @@
 	<string>sortedArray</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (NSArray *)sortedArrayFunction:(NSArray *)originArray
@@ -26,7 +26,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1F4CD51A-1BEA-44BC-8562-897BB42AA588</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>sortedArrayFunction</string>
 	<key>IDECodeSnippetUserSnippet</key>

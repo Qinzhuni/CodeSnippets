@@ -6,7 +6,7 @@
 	<string>compareDateByDay</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>NSDate *now = [NSDate date];
@@ -27,7 +27,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E3A8A9C6-7540-442D-84F0-6AF576380491</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>compareDateByDay</string>
 	<key>IDECodeSnippetUserSnippet</key>

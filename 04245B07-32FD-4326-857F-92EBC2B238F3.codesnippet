@@ -3,32 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setupScreenIdle</string>
+	<string>NS_ENUM</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)setupScreenSleep
-{
-    if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"isPreventSleep"] boolValue]) {
-        //屏幕常亮
-        [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
-        NSLog(@"activate prevent sleep");
-    }
-    else
-    {
-        //屏幕不常亮
-        [[UIApplication sharedApplication] setIdleTimerDisabled:NO];
-        NSLog(@"deactivate prevent sleep");
-    }
-}</string>
+	<string>typedef NS_ENUM(&lt;#type#&gt;, &lt;#name#&gt;) {
+    
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9C4DB6A8-249C-441E-AB61-B839EAAC4749</string>
+	<string>04245B07-32FD-4326-857F-92EBC2B238F3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>setupScreenIdle</string>
+	<string>NS_ENUM</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

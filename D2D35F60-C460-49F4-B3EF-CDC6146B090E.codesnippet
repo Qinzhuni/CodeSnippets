@@ -6,7 +6,7 @@
 	<string>rateAtAppleStore</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>//评分
@@ -15,7 +15,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D2D35F60-C460-49F4-B3EF-CDC6146B090E</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>rateAtAppleStore</string>
 	<key>IDECodeSnippetUserSnippet</key>

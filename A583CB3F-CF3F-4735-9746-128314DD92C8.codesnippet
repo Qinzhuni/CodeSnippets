@@ -6,14 +6,14 @@
 	<string>addObserver</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[[NSNotificationCenter defaultCenter] addObserver:&lt;#(id)#&gt; selector:&lt;#(SEL)#&gt; name:&lt;#(NSString *)#&gt; object:&lt;#(id)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A583CB3F-CF3F-4735-9746-128314DD92C8</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>addObserver</string>
 	<key>IDECodeSnippetUserSnippet</key>
