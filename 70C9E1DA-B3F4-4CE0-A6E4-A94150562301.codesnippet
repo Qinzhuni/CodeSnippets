@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Property</string>
+	<string>go2setting</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (&lt;#strong#&gt;, &lt;#nonatomic#&gt;) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>[[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4F786BEC-623C-4D72-A1B1-52E50B0CC2CB</string>
+	<string>70C9E1DA-B3F4-4CE0-A6E4-A94150562301</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property Declaration</string>
+	<string>go2Setting</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
